@@ -1,4 +1,4 @@
-package com.basic.Java.threads.ProducerConsumerProblem;
+package com.basic.Java.threads;
 
 public class MainThread {
     public static void main(String[] args) {

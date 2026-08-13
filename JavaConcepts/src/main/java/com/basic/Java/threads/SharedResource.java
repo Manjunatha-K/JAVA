@@ -1,4 +1,4 @@
-package com.basic.Java.threads.ProducerConsumerProblem;
+package com.basic.Java.threads;
 
 import java.util.ArrayList;
 import java.util.List;

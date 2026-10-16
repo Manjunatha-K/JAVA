@@ -14,11 +14,9 @@ public class ThreadPoolExecutorDemo {
         try {
             for (int i = 1; i <= 10; i++) {
                 int taskId = i;
-
                 executor.execute(() -> {
                     System.out.println("Task " + taskId + " running on " + Thread.currentThread().getName()
-                    );
-
+                    ); 
                     try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
